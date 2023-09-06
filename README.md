@@ -132,5 +132,48 @@ When we execute the command sudo docker run <image_id> , it runs in the IP Addre
 ![image](https://github.com/swethamurthy25/-Containerization-using-Docker/assets/112581595/f016f257-dac8-4ad9-bdd6-260fdb35b613)
 
 
+When we execute sudo-docker-compose up command, it executes in the IP Address & port  http://172.19.0.2:5000/
+
+![image](https://github.com/swethamurthy25/-Containerization-using-Docker/assets/112581595/88fe9935-c623-4f0d-b163-f6ba5a8c8782)
+
+IP Address - http://172.19.0.2:5000
+
+![image](https://github.com/swethamurthy25/-Containerization-using-Docker/assets/112581595/ebf3c49f-ae67-4386-828c-1e473be2fd52)
+
+Change the IP Address to http://172.19.0.2:5000/next
+
+![image](https://github.com/swethamurthy25/-Containerization-using-Docker/assets/112581595/4b15b5d0-0377-4640-b9c7-716193a50492)
+
+
+### Published my containerized docker in the Git Hub link and the code is in public
+
+![image](https://github.com/swethamurthy25/-Containerization-using-Docker/assets/112581595/6148eda8-a303-4c91-a3e2-91a8118d4e64)
+
+
+### Strength (Advantages)
+
+* Simplicity and Faster Configuration: One of the key benefits of Docker is the way it simplifies things. It enables customers to easily take their own configuration, include it in the code, and deploy it.
+* Rapid application deployment: The deployment time is reduced to a matter of seconds. This is because it creates a container for each process and does not even boot an operating system.
+* Portability across machines: A single container can contain a program and all its dependencies, regardless of the host, platform distribution, or deployment mechanism. This container can be transferred to another Docker-enabled machine and executed there without any compatibility issues. Also, by enabling the WSL 2-based engine, we can run both Linux and Windows containers in Docker Desktop on the same machine.
+* Simplified Maintenance: Docker reduces the time and effort required to manage application dependencies, as well as the chance of errors.
+* Optimized Cost: Docker's advantage is that it allows us to drastically cut infrastructure expenditures. When compared to VMs and other technologies, docker allows us to operate applications at minimal costs, from employee strength to server cost.
+* Continuous Integration Efficiency: We can create a container image with the help of Docker and then use the same image throughout the entire deployment process. This has the advantage of being able to segregate non-dependent phases while also allowing them to execute in parallel. Additionally, the time it takes to go from build to production may speed up notably.
+
+### Weakness (Disadvantages)
+
+* Not suitable for GUI Applications: Docker is not suitable for applications that demand a robust user interface. Docker is designed primarily for isolated containers that run console-based apps.
+* It is not possible to launch a GUI-based interface or a Docker RDP server in a Windows container because it is based on either Nano or Core Server.
+* In a Linux container, users can still run GUI-based programs written in Python using the QT framework. We can also use X11 forwarding, but this solution will be an inconvenient method.
+* Data storage is intricate: When a container closes, all the data inside it is lost permanently unless you save it somewhere else first.
+* There are ways to store data tenaciously in Docker, such as Docker Data Capacities, but this is arguably a test that has yet to be approached in a seamless manner.
+
+### References
+
+1.	Top 5 Advantages of Using Docker - CloudTern Solutions. 31 Aug. 2021, www.cloudtern.com/cloud/top-5-advantages-of-using-docker/. Accessed 6 Mar. 2022.
+2.	“Advantages and Disadvantages of Docker - Learn Docker.” DataFlair, 22 Nov. 2018, data-flair. training/blogs/advantages-and-disadvantages-of-docker/.
+3.	User, Super. “Using Docker When Developing a Web Service: What Do You Need to Consider?” Apriorit, www.apriorit.com/dev-blog/534-using-docker-developing-web-service.
+
+
+
 
 
